@@ -15,5 +15,3 @@ try {
 } catch {
     Write-Host "Error getting location information for IP address $ipAddress"
 }
-
- 
