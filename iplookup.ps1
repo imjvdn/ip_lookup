@@ -17,7 +17,6 @@ Write-Host "Latitude: $($location.loc.Split(",")[0])" -ForegroundColor Cyan
 Write-Host "Longitude: $($location.loc.Split(",")[1])"-ForegroundColor Cyan
 Write-Host "Timezone: $($location.timezone)"-ForegroundColor Cyan
     Write-Host "-------------------------------"-ForegroundColor Cyan
-    Write-Host ""
     Write-Host "--------- System Time ---------"-ForegroundColor Cyan
     Write-Host "    $(Get-Date -Format "dd MMMM yyyy HH:mm:ss")"-ForegroundColor Cyan
     Write-Host "-------------------------------"-ForegroundColor Cyan
